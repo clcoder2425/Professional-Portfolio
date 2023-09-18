@@ -10,8 +10,13 @@ header{
     text-align: center;
     background-color:cornflowerblue;
     color:black;
+    .hero{
+        padding: 40px;
+    text-align: center;
+        color:black;
+    }
 }
-.header nav{
+.hero nav{
     display:flex;
     background-color: dimgray;
     flex-wrap: wrap;
@@ -19,25 +24,25 @@ header{
 
 .header{
     padding: 20px;
-    background: lightblue;
     color: #fff;
     flex-wrap: wrap;
 }
-.header h1{
-    display:inline-block;
-    font: size 48px;
-    float: left;
-    padding: 14px;
-}
 
-.header nav ul{
+
+.hero nav ul{
     list-style: none;
 }
-.header nav li {
+.hero nav li {
     float:right;
     color:dodgerblue;
     padding:14px 20px;
     text-align: center;
+}
+.hero nav li h1{
+background-color: lightblue;
+color:black;
+padding: 14px;
+display:inline-block;
 }
 .center{
     height: 75px;
