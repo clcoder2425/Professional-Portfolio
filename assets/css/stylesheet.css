@@ -1,28 +1,45 @@
 *{
     box-sizing: border-box;
-    padding: 0%;
-    margin:0%
 }
 body{
-    background-color: #d9dcd6;
-    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
 }
+header{
+    padding: 40px;
+    text-align: center;
+    background-color:cornflowerblue;
+    color:black;
+}
+.header nav{
+    display:flex;
+    background-color: dimgray;
+    flex-wrap: wrap;
+}
+
 .header{
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: lightblue;
+    background: lightblue;
     color: #fff;
     flex-wrap: wrap;
-    width: 992px;;
 }
 .header h1{
     display:inline-block;
     font: size 48px;
+    float: left;
+    padding: 14px;
 }
-.header nav{
-display: flex;
-flex-wrap: wrap;
+
+.header nav ul{
+    list-style: none;
 }
-.header nav a{
-    float: right;
+.header nav li {
+    float:right;
+    color:dodgerblue;
+    padding:14px 20px;
+    text-align: center;
+}
+.center{
+    height: 75px;
+    width:100%;
 }
