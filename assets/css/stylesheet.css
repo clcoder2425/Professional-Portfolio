@@ -3,7 +3,7 @@
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin:0;
+    margin: 1px;;
     background-color: #f3efe8;
 }
 header{
@@ -28,13 +28,14 @@ header{
 
 main section  {
     display:flex;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(241, 235, 235);
 }
 .subtitle {
     width: 30vw;
 }
 .subtitle h2 {
     border-right: 2px rgb(218, 34, 34);
+    padding-left: 3px;
 }
 .content { 
     font-size: large;
@@ -86,21 +87,22 @@ main section  {
 footer{
     padding:8px;
     text-align: center;
-    background-color: #f3efe8;
+    background-color: lightgray;
     color:black;
 }
 .work-experience{
 flex:4;
-padding:20px;
+padding:0px;
 background-color: #f3efe8;;
+box-shadow:#fff;
 display:flex;
 flex-wrap: wrap;
 }
 .card {
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     background-color:cornflowerblue;
     flex:1 1 200px;
     flex-direction: column;
@@ -108,10 +110,10 @@ flex-wrap: wrap;
 .card div {
     font-weight: bold;
 }
-.card header { 
+/*.card header { 
     padding:20px;
     justify-content: center;
-}
+}*/
 .card img {
     width: 70%;
     padding: 5px;
