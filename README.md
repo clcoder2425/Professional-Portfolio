@@ -10,8 +10,8 @@ how to create a new project in GitHub
 how to add issues or tasks to a project in Git Hub.
 
 #Usage
-![Professional Portfolio](./assets/images/challenge3_screenshot.jpg)
+![Professional Portfolio](./assets/images/challenge2_screenshot.JPG)
 
-Webpage link: https://clcoder2425.github.io/Professional-Portfolio/
+![Webpage link] https://clcoder2425.github.io/Professional-Portfolio/
 
-Github repository link: https://github.com/clcoder2425/Professional-Portfolio.git
+![Github repository link] https://github.com/clcoder2425/Professional-Portfolio.git
