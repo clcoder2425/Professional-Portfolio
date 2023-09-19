@@ -39,6 +39,7 @@ main section  {
 .content { 
     font-size: large;
     padding-top: 2px;
+    font-style:italic;
     justify-content:space-between;
 }
 .content img {
@@ -80,7 +81,7 @@ main section  {
  main{
     display: flex;
     flex-wrap: wrap;
-    background-color:#f3efe8;
+    background-color:lightgray;
 } 
 footer{
     padding:8px;
