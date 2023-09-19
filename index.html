@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta charset="viewport" content="width=device-width, initial-scale=1"/>
-   <link rel="stylesheet" href="./assets/css/stylesheet.css">
+    <meta charset="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <title>Professional Portfolio</title>
 </head>
-<body class="container">
+
+<body>
     <!--Header -->
-    <div class="hero">
-   <!--<h1>Carmen J</h1>-->
-    <!-- Navbar-->
-    <nav>
-        <ul> 
-            <li> <h1> Carmen J</h1></li>
-            <li><a href="#About-Me">About Me</a></li>
-            <li>
-            <a href="#Work">Work</a>
-            </li>
-            <li>
-            <a href="#Contact-me"> Contact Me</a>
-            </li>
-        </ul>             
-</nav>
-    </div> 
-<!--imagebar -->
-<img src="./assets/images/20221103_173104.jpg" alt="ocean picture" class="center"/>
-  
-    <!-- Body-->
-    <main>
-      <section id="about">
-       <h2>About Me</h2>
-        <p>
-    Web developer professional with experience on training, content creation and technical support.
-        </p>
-        </section>
+    <header class="menubar">
+        <h1>Carmen </h1>
+        <!-- Navbar-->
+        <nav>
+            <ul>
+                
+                <li><a href="#About-Me">About Me</a></li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me"> Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <div class="container"><img src="./assets/images/20221103_173104.jpg" alt="ocean picture" class="center"/>
+    <div class="bottom-right">Tropical</div></div>
+        
+    <main style="border:1px solid black">
+    <section id="About-Me">
+        <div class="subtitle">
+            <h2>About Me</h2>
+            <img src="./assets/images/cardinal.jpg" alt="Picture of Cardinal">
+        </div>
+        <div class="content">
+            Web developer professional with experience on training, content creation and technical support. 
+        </div>
+    </section>
+    <section id="Work">
+        <div class="subtitle">
+            <h2>Work</h2>
+        </div>
         <div class="work-experience">
             <section class="card">
-        <h2> Work</h2>
-        <header> Project 1: Refactor Code</header>
-       <a href="https://clcoder2425.github.io/Refactor-code/"><img src="./assets/images/screenshot.png" alt="project 1"/></a> 
-       </section>
-       <section class="card">
-        <header>Project 2: Code Snipped</header>
-        <img src="./assets/images/html_318-889190.png" alt="html clipart"/>
-       </section>
-       <section class="card">
-        <header>Project 3: TBD</header> 
-        <img src="./assets/images/csspicture.jpg" alt="CSS code sample"/>
-       </section>
-        <section class="contact">
-            <h2>Contact me</h2>
-            <p> <span>Phone:</span> 555-555-5555.  <span>Email:</span> myemail@gmail.com</p>
-        </section>
+                <div> Project 1: Refactor Code<div>
+                <a href="https://clcoder2425.github.io/Refactor-code/"><img src="./assets/images/screenshot.png"alt="project 1" /></a>
+            </section>
+            <section class="card">
+                <div>Project 2: Code Snipped<div>
+                <img src="./assets/images/html_318-889190.png" alt="html clipart"/>
+            </section>
+            <section class="card">
+                <div>Project 3: TBD<div>
+                <img src="./assets/images/csspicture.jpg" alt="CSS code sample" />
+            </section>
+        </div>
+    </section>
+    <section id="Contact-Me">
+        <div class="subtitle">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="content">
+            <h4>
+                <span>Phone:</span>555-555-5555 <span>Email:sample@gmail.com</span>
+            </h4>
+        </div>
+    </section>
     </main>
+   
     <footer>
-    <h4> Additional information provided upon request</h4>
+        <h4> Additional information provided upon request</h4>
     </footer>
 </body>
+
 </html>

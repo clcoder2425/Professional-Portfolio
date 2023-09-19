@@ -4,22 +4,20 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:0;
+    background-color: #f3efe8;
 }
 header{
     padding: 40px;
     text-align: center;
-    background-color:cornflowerblue;
+    background-color:cornflowerblue; 
     color:black;
-    .hero{
-        padding: 40px;
-    text-align: center;
-        color:black;
-    }
-}
-.hero nav{
     display:flex;
-    background-color: dimgray;
+   justify-content: space-between;
+}
+.menubar nav{
+    display:flex;
     flex-wrap: wrap;
+    background-color: lightgray;
 }
 
 .header{
@@ -28,30 +26,63 @@ header{
     flex-wrap: wrap;
 }
 
+main section  s{
+    display:flex;
+    border-left: 1px solid black;
 
-.hero nav ul{
+}
+.subtitle {
+    width: 30vw;
+}
+.subtitle h2 {
+    border-right: 1px black;
+}
+/* .content { 
+    
+}*/
+.content img {
+    width:50%;
+}
+.menubar nav ul{
     list-style: none;
 }
-.hero nav li { /* I want to move this content to the right*/
+.menubar nav li { 
     color:dodgerblue;
-    padding:14px 20px;
+    padding:14px 14px;
     text-align: center;
     float: left;
 }
-.hero nav li h1{ /* I want to move my name to the left*/
+.menubar h1 {
+    color: white;
+    padding: 10px;
+    border: 10px;
+    background-color:dodgerblue;
+}
+/*.menubar nav li h1{ 
 background-color: lightblue;
 color:black;
 padding: 14px;
 
-}
+}*/
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size:large;
+  }
 .center{
     height: 75px;
     width:100%;
 }
-main{
+ main{
     display: flex;
     flex-wrap: wrap;
-}
+} 
 footer{
     padding:8px;
     text-align: center;
@@ -66,8 +97,23 @@ display:flex;
 flex-wrap: wrap;
 justify-content:space-between;
 }
-.work-experience h2{
+.card {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:cornflowerblue;
+    flex:1 1 200px;
+    }
+.card div {
+    font-weight: bold;
+}
+.card header { 
     padding:20px;
-    border-style: double;
-    background-color:white;
+    justify-content: center;
+}
+.card img {
+    width: 70%;
+    padding: 5px;
+    flex: 1 1 175px;
 }
